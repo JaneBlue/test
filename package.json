@@ -1,0 +1,14 @@
+{
+    "name": "myApp",
+    "version": "0.0.1",
+    "entry": {
+        "index": "app.js"
+    },
+    "scripts": {
+        "start": "node app.js"
+    },
+    "author": "lxiange",
+    "dependencies": {
+        "express": "^4.15.0"
+    }
+}
