@@ -15,7 +15,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: tomcat
-        image: tomcat:8
+      - name: test
+        image: registry.cn-beijing.aliyuncs.com/rdc-template/repo:${BUILD_NUMBER}
         ports:
         - containerPort: 80
